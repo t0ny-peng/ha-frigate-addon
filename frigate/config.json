@@ -1,0 +1,16 @@
+{
+  "name": "Frigate proxy",
+  "version": "0.0.1",
+  "slug": "frigate",
+  "description": "Proxy for local Frigate",
+  "arch": ["amd64"],
+  "url": "https://github.com/t0ny-peng/ha-frigate-addon",
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "map": ["share"],
+  "image": "left4taco/ha-frigate-addon",
+  "panel_icon": "mdi:cctv",
+  "panel_title": "Frigate",
+  "panel_admin": true
+}
